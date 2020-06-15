@@ -31,6 +31,8 @@
             this.login_tb = new System.Windows.Forms.TextBox();
             this.pass_tb = new System.Windows.Forms.TextBox();
             this.auth_btn = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // login_tb
@@ -57,11 +59,33 @@
             this.auth_btn.UseVisualStyleBackColor = true;
             this.auth_btn.Click += new System.EventHandler(this.auth_btn_Click);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(325, 248);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(72, 13);
+            this.linkLabel1.TabIndex = 3;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Register now!";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(325, 235);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Dont have account?";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.auth_btn);
             this.Controls.Add(this.pass_tb);
             this.Controls.Add(this.login_tb);
@@ -77,6 +101,8 @@
         private System.Windows.Forms.TextBox login_tb;
         private System.Windows.Forms.TextBox pass_tb;
         private System.Windows.Forms.Button auth_btn;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

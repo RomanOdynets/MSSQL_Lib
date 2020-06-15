@@ -14,9 +14,11 @@ namespace Lessons1506
 {
     public partial class Form1 : Form
     {
+        public static Form1 window;
         public Form1()
         {
             InitializeComponent();
+            window = this;
         }
 
         private void auth_btn_Click(object sender, EventArgs e)
@@ -43,6 +45,21 @@ namespace Lessons1506
                 MessageBox.Show("Username not valid");
             }
             reader.Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (authed.window == null)
+            {
+                authed p = new authed();
+                p.Show();
+                Hide();
+            }
+            else
+            {
+                authed.window.Show();
+                Hide();
+            }
         }
     }
 }
