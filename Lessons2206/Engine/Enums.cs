@@ -10,7 +10,7 @@ namespace Lessons2206.Engine
     {
         public enum PermissionRole
         {
-            User = 0,
+            User = 1,
             Advanced_User,
             Moderator,
             Administrator,
