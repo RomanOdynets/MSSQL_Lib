@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSSQL_SDK", "MSSQL_SDK\MSSQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_Editor", "DB_Editor\DB_Editor.csproj", "{325C66B8-A7FF-4721-90F6-4B8DDEA2C581}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons2206", "Lessons2206\Lessons2206.csproj", "{87329FD3-F18E-4628-9E97-18C97C37BA41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{325C66B8-A7FF-4721-90F6-4B8DDEA2C581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325C66B8-A7FF-4721-90F6-4B8DDEA2C581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325C66B8-A7FF-4721-90F6-4B8DDEA2C581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87329FD3-F18E-4628-9E97-18C97C37BA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87329FD3-F18E-4628-9E97-18C97C37BA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87329FD3-F18E-4628-9E97-18C97C37BA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87329FD3-F18E-4628-9E97-18C97C37BA41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
