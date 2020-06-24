@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.status_pn = new System.Windows.Forms.StatusStrip();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menu_st = new System.Windows.Forms.MenuStrip();
             this.aboutHeader_btn = new System.Windows.Forms.ToolStripMenuItem();
             this.publicInformation_btn = new System.Windows.Forms.ToolStripMenuItem();
             this.creators_btn = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,7 +38,7 @@
             this.status_lbl = new System.Windows.Forms.ToolStripStatusLabel();
             this.settings_btn = new System.Windows.Forms.ToolStripMenuItem();
             this.status_pn.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
+            this.menu_st.SuspendLayout();
             this.SuspendLayout();
             // 
             // status_pn
@@ -52,16 +52,16 @@
             this.status_pn.TabIndex = 0;
             this.status_pn.Text = "statusStrip1";
             // 
-            // menuStrip1
+            // menu_st
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu_st.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settings_btn,
             this.aboutHeader_btn});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(733, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menu_st.Location = new System.Drawing.Point(0, 0);
+            this.menu_st.Name = "menu_st";
+            this.menu_st.Size = new System.Drawing.Size(733, 24);
+            this.menu_st.TabIndex = 1;
+            this.menu_st.Text = "menuStrip1";
             // 
             // aboutHeader_btn
             // 
@@ -117,9 +117,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(733, 557);
             this.Controls.Add(this.status_pn);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menu_st);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.menu_st;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel | Data Base Info";
@@ -127,8 +127,8 @@
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.status_pn.ResumeLayout(false);
             this.status_pn.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menu_st.ResumeLayout(false);
+            this.menu_st.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,7 +137,7 @@
         #endregion
 
         private System.Windows.Forms.StatusStrip status_pn;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menu_st;
         private System.Windows.Forms.ToolStripMenuItem aboutHeader_btn;
         private System.Windows.Forms.ToolStripMenuItem publicInformation_btn;
         private System.Windows.Forms.ToolStripMenuItem creators_btn;
