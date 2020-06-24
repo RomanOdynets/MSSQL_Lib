@@ -59,7 +59,6 @@ namespace Lessons2206.Forms
         private void MainForm_Shown(object sender, EventArgs e)
         {
             status_lbl.Text = "Current user: " + AuthInfo.username;
-            menu_st.Items.Add
         }
 
         private void settings_btn_Click(object sender, EventArgs e)
